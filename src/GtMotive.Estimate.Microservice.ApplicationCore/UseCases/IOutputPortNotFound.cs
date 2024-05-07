@@ -10,5 +10,11 @@
         /// </summary>
         /// <param name="message">Text description.</param>
         void NotFoundHandle(string message);
+
+        /// <summary>
+        /// Handles the bad request.
+        /// </summary>
+        /// <param name="message">Text description.</param>
+        void BadRequestHandle(string message);
     }
 }

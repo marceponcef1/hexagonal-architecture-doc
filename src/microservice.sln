@@ -34,6 +34,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GtMotive.Estimate.Microserv
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GtMotive.Estimate.Microservice.Host", "GtMotive.Estimate.Microservice.Host\GtMotive.Estimate.Microservice.Host.csproj", "{9F5951E0-9865-4EE9-A32A-DC545BF21C95}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{5FC0D821-A332-401F-B6CF-3C1D880D4F12}"
+	ProjectSection(SolutionItems) = preProject
+		..\docs\Prueba Técnica .NET GTMotive – Documentación del Proyecto - ES.pdf = ..\docs\Prueba Técnica .NET GTMotive – Documentación del Proyecto - ES.pdf
+		..\docs\PruebaTecnicaMicroservicios_NET (002).pdf = ..\docs\PruebaTecnicaMicroservicios_NET (002).pdf
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

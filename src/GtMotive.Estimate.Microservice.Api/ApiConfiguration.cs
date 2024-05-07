@@ -34,6 +34,8 @@ namespace GtMotive.Estimate.Microservice.Api
             }
 
             builder.AddApplicationPart(typeof(ApiConfiguration).GetTypeInfo().Assembly);
+            builder.AddNewtonsoftJson(options =>
+                options.SerializerSettings.DateParseHandling = Newtonsoft.Json.DateParseHandling.None);
 
             AddApiDependencies(builder.Services);
 
